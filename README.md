@@ -132,3 +132,28 @@ A Use Case Diagram is a visual representation of how different users (called **a
 Below is a simple use case diagram for a hotel/room booking platform like Airbnb or OYO:
 
 ![Use Case Diagram for Booking System](alx-booking-uc.png)
+
+## 🎯 Acceptance Criteria
+
+**What are Acceptance Criteria?**  
+Acceptance Criteria are specific, measurable conditions or requirements that a software feature must meet for it to be considered complete and acceptable by stakeholders. They act as a checklist to confirm that the feature works as intended and meets user expectations.
+
+### 🔑 Why Acceptance Criteria Matter:
+
+- **Clarity:** They provide clear expectations for developers, testers, and stakeholders about what “done” means for each feature.
+- **Validation:** Help testers verify that the functionality behaves correctly in different scenarios.
+- **Scope Control:** Prevent scope creep by defining precise requirements that must be met.
+- **Communication:** Facilitate better collaboration among team members and stakeholders by agreeing on acceptance upfront.
+- **Quality Assurance:** Ensure features meet both functional and non-functional requirements before release.
+
+### ✅ Example: Acceptance Criteria for Checkout Feature in Booking Management
+
+For a **Checkout** feature in a booking system, the acceptance criteria might be:
+
+1. Users must be able to review their booking details before confirming payment.  
+2. The system must accept valid payment methods (e.g., credit card, PayPal).  
+3. Upon successful payment, a confirmation message and receipt are displayed.  
+4. The booking status should change to "Confirmed" immediately after payment.  
+5. If the payment fails, an error message is shown, and the booking remains "Pending."  
+6. The system must prevent double booking of the same property for overlapping dates.  
+7. All user data entered during checkout must be securely transmitted and stored.
